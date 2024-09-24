@@ -1,114 +1,3 @@
-## Downloading and Installing Python:
-
-1. Installing Python on Windows
-   
-   *   Step 1: Download Python Installer
-       *   Go to the official Python website: https://www.python.org/downloads/.
-       *   The website will automatically detect your operating system and suggest the latest version of Python for Windows.
-       *   Click Download Python 3.x.x (the latest version at the time).
-   
-   *   Step 2: Run the Python Installer
-       *   Once the installer has been downloaded, locate the .exe file in your Downloads folder and double-click it to launch the installer.
-    
-   *   Step 3: Customize Installation Options
-       *   Important: At the bottom of the installation window, check the box that says Add Python to PATH. This step ensures you can use Python from the command line or terminal.
-   *   Click Customize installation to proceed to the next step.
-   
-   *   Step 4: Select Optional Features
-       *   In the Optional Features screen, you can leave the default selections (such as:
-           *   Documentation: Provides access to Python documentation.
-           *   pip: Python’s package manager (important for installing additional packages).
-           *   tcl/tk and IDLE: Used for GUI applications and the IDLE development environment.
-           *   Python test suite: This is optional for testing Python itself.
-       *   Click Next.
-   
-   *   Step 5: Advanced Options
-       *   the Advanced Options screen, you can leave most of the default options checked. You may want to check the following based on your preferences:
-           *   Install for all users: Choose this if you want Python installed system-wide.
-           *   Precompile standard library: This helps Python run faster.
-       *   Choose an installation location if needed (or leave it as default) and click Install.
-  
-   *   Step 6: Wait for the Installation to Complete
-       *   The installer will begin copying files and setting up Python on your system. Once it’s done, you’ll see a success message. Click Close to exit the installer.
-  
-   *   Step 7: Verify Python Installation
-       *   Open the Command Prompt by pressing Win + R, typing cmd, and pressing Enter.
-       *   In the Command Prompt, type:
-           *   python --version
-       *   This should display the installed Python version (e.g., Python 3.x.x). If it doesn't, check that Python was added to the PATH correctly.
-
-   *   Step 8: Verify pip Installation
-       *   In the Command Prompt, type:
-           *   pip --version
-       *   You should see the version of pip that is installed with Python.
-
-2. Installing Python on macOS
-   *   Step 1: Check Pre-installed Python Version (Optional)
-       *   macOS comes with Python 2.x pre-installed. To check which version is installed, open Terminal (press Cmd + Space, type Terminal, and press Enter), and type:
-           *   python --version
-       *   This will likely show Python 2.x.
-
-   *   Step 2: Download Python Installer
-       *   Go to the official Python website: https://www.python.org/downloads/.
-       *   The website will detect your operating system and show the latest version for macOS. Click Download Python 3.x.x.
-    
-   *   Step 3: Install Python
-       *   Locate the .pkg file in your Downloads folder and double-click it to launch the installer.
-       *   Follow the on-screen instructions:
-           *   Click Continue when the installer window opens.
-           *   Agree to the License Agreement.
-           *   Select the disk where you want to install Python, and click Install.
-      
-   *   Step 4: Complete Installation
-       *   installer will copy files to your system. Once it's finished, click Close.
-    
-   *   Step 5: Verify Python Installation
-       *   Open Terminal and type:
-           *   python3 --version
-       *   You should see the installed version of Python 3.
-
-   *   Step 6: Verify pip Installation
-       *   In the Terminal, type:
-           *   pip3 --version
-       *   If pip was installed correctly, it should display the version.
-
-3. Installing Python on Linux (Ubuntu/Debian-based)
-   *   Most Linux distributions come with Python pre-installed, but it might be an older version (usually Python 2). Here’s how to install Python 3.x.
-
-   *   Step 1: Update the Package List
-       *   Open a terminal (Ctrl + Alt + T on most Linux systems), and update your package manager:
-           *   sudo apt update
-    
-   *   Step 2: Install Python 3
-       *   Install Python 3 by running the following command:
-       *   sudo apt install python3
-      
-   *   Step 3: Verify Python Installation
-       *   Once the installation is complete, verify that Python is installed:
-           *   python3 --version
-       *   This should display the installed version of Python 3.
-
-   *   Step 4: Install pip
-       *   To install pip (Python’s package manager), use the following command:
-       *   sudo apt install python3-pip
-      
-   *   Step 5: Verify pip Installation
-       *   Check if pip is installed correctly:
-           *   pip3 --version
-      
-4. Installing Python on Other Linux Distros (Fedora, Arch, etc.)
-   *   Here are commands for other popular Linux distros:
-
-   *   For Fedora:
-       *   sudo dnf install python3
-    
-   *   For Arch Linux:
-       *   sudo pacman -S python
-  
-   *   Once installed, you can verify Python and pip installations with:
-       *   python3 --version
-       *   pip3 --version
-
 ## Downloading and Installing IDE (Optional)
 
 1. Installing PyCharm on Windows
@@ -207,3 +96,78 @@
    *   Step 3: Verify Installation
        *   After selecting the interpreter, you can create a Python file in your project, write a simple script like print("Hello, World!"), and run it to verify that the interpreter is set up correctly.
          
+## GitHub Basics
+
+1. Forking a Repository on GitHub
+   *   Forking creates a personal copy of someone else's repository on your GitHub account. Here are the steps:
+   *   Step 1: Log in to GitHub
+       *   Go to GitHub and log in to your account. If you don't have one, create an account first.
+   *   Step 2: Find the Repository to Fork
+       *   Navigate to the repository you want to fork by searching for it or using a direct link.
+   *   Step 3: Fork the Repository
+       *   At the top-right corner of the repository page, click the Fork button. This will create a copy of the repository under your GitHub account.
+       *   Once you've forked the repository, you’ll have a personal copy of it in your account. Now, let’s move on to cloning it.
+
+2. Cloning the Forked Repository
+   *   Cloning a repository means downloading it to your local machine so you can work on it using your IDE (PyCharm in this case).
+
+   *   Step 1: Get the Clone URL
+       *   After forking, go to your GitHub profile and find the forked repository.
+       *   Click on the Code button, which will show a dropdown with several clone options (HTTPS, SSH, or GitHub CLI). Copy the URL (choose HTTPS for simplicity unless you are using SSH).
+   *   Step 2: Open PyCharm
+       *   Launch PyCharm.
+   *   Step 3: Start a New Project from Version Control
+       *   On the PyCharm start screen, select Get from VCS (Version Control System).
+       *   If PyCharm is already open, go to File > New > Project from Version Control.
+   *   Step 4: Paste the Repository URL
+       *   In the window that appears, paste the repository URL you copied from GitHub (e.g., https://github.com/your-username/repo-name.git).
+   *   Step 5: Choose a Directory to Clone Into
+       *   Select the directory on your local machine where you want the repository to be cloned. PyCharm will create a project folder for it.
+       *   Click Clone.
+   *   Step 6: Wait for the Repository to Download
+       *   PyCharm will clone the repository, download its contents, and set up the project.
+3. Configuring and Managing Your Project in PyCharm
+   *   Once the repository is cloned into PyCharm, you'll need to configure the environment and manage your workflow.
+
+   *   Step 1: Configure the Python Interpreter
+       *   Go to File > Settings > Project: [project_name] > Python Interpreter.
+       *   If the project requires a specific Python version or environment, you can set it here.
+       *   You can add a virtual environment or use an existing interpreter like Anaconda.
+   *   Step 2: Pull Latest Changes (Optional)
+       *   If the original repository (the upstream repo) is being updated frequently, you may want to keep your fork updated.
+       *   In PyCharm, go to VCS > Git > Pull to pull the latest changes from your fork (or the original repository if you've added it as a remote).
+   *   Step 3: Start Coding!
+       *   At this point, the repository is ready in your IDE. You can now open files, edit code, and write new features.
+4. Making Changes, Committing, and Pushing
+   *   Once you make changes to the repository, you’ll want to commit and push them to your fork on GitHub.
+
+   *   Step 1: Make Your Code Changes
+       *   Open any file, make the necessary changes, and save them.
+   *   Step 2: Commit the Changes
+       *   Go to VCS > Commit (or use the keyboard shortcut Ctrl+K on Windows/Linux or Cmd+K on macOS).
+       *   In the commit dialog box, you can:
+           *   Write a commit message describing the changes.
+           *   Select the files you want to include in the commit (if you edited multiple files).
+           *   Optionally run a code analysis or reformat the code before committing.
+       *   Once you’ve filled out the commit message and selected files, click Commit.
+   *   Step 3: Push Your Changes to GitHub
+       *   To push the committed changes to your fork on GitHub, go to VCS > Git > Push (or use the shortcut Ctrl+Shift+K on Windows/Linux or Cmd+Shift+K on macOS).
+       *   PyCharm will push the changes to the remote repository.
+5. Keeping Your Fork Up to Date (Optional)
+   *   If the original repository (referred to as upstream) is actively maintained, you may want to pull in changes from the original project into your fork.
+
+   *   Step 1: Add the Original Repository as an Upstream Remote
+       *   Open the terminal in PyCharm by going to View > Tool Windows > Terminal.
+
+       *   Use the following command to add the upstream repository (the original repository you forked from) as a remote:
+           *   git remote add upstream https://github.com/original-owner/repository.git
+   *   Step 2: Fetch and Merge Changes
+       *   To fetch updates from the upstream repository and merge them into your local copy, run:
+           *   git fetch upstream
+           *   git merge upstream/main
+       *   Replace main with the branch name if it's different (e.g., master).
+
+   *   Step 3: Push Updates to Your Fork
+       *   Once you've merged the changes, push the updated code to your fork on GitHub:
+           *   git push origin main
+             
