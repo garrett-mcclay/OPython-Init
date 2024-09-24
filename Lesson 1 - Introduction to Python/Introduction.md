@@ -67,71 +67,71 @@ Before you head forward, it is important to note that there are two major Python
        *   You should see the version of pip that is installed with Python.
 
 2. Installing Python on macOS
-  Step 1: Check Pre-installed Python Version (Optional)
-    macOS comes with Python 2.x pre-installed. To check which version is installed, open Terminal (press Cmd + Space, type Terminal, and press Enter), and type:
-      python --version
-    This will likely show Python 2.x.
+   *   Step 1: Check Pre-installed Python Version (Optional)
+       *   macOS comes with Python 2.x pre-installed. To check which version is installed, open Terminal (press Cmd + Space, type Terminal, and press Enter), and type:
+           *   python --version
+       *   This will likely show Python 2.x.
 
-  Step 2: Download Python Installer
-    Go to the official Python website: https://www.python.org/downloads/.
-    The website will detect your operating system and show the latest version for macOS. Click Download Python 3.x.x.
+   *   Step 2: Download Python Installer
+       *   Go to the official Python website: https://www.python.org/downloads/.
+       *   The website will detect your operating system and show the latest version for macOS. Click Download Python 3.x.x.
     
-  Step 3: Install Python
-    Locate the .pkg file in your Downloads folder and double-click it to launch the installer.
-    Follow the on-screen instructions:
-      Click Continue when the installer window opens.
-      Agree to the License Agreement.
-      Select the disk where you want to install Python, and click Install.
+   *   Step 3: Install Python
+       *   Locate the .pkg file in your Downloads folder and double-click it to launch the installer.
+       *   Follow the on-screen instructions:
+           *   Click Continue when the installer window opens.
+           *   Agree to the License Agreement.
+           *   Select the disk where you want to install Python, and click Install.
       
-  Step 4: Complete Installation
-    The installer will copy files to your system. Once it's finished, click Close.
+   *   Step 4: Complete Installation
+       *   installer will copy files to your system. Once it's finished, click Close.
     
-  Step 5: Verify Python Installation
-    Open Terminal and type:
-      python3 --version
-    You should see the installed version of Python 3.
+   *   Step 5: Verify Python Installation
+       *   Open Terminal and type:
+           *   python3 --version
+       *   You should see the installed version of Python 3.
 
-  Step 6: Verify pip Installation
-    In the Terminal, type:
-      pip3 --version
-    If pip was installed correctly, it should display the version.
+   *   Step 6: Verify pip Installation
+       *   In the Terminal, type:
+           *   pip3 --version
+       *   If pip was installed correctly, it should display the version.
 
 3. Installing Python on Linux (Ubuntu/Debian-based)
-  Most Linux distributions come with Python pre-installed, but it might be an older version (usually Python 2). Here’s how to install Python 3.x.
+   *   Most Linux distributions come with Python pre-installed, but it might be an older version (usually Python 2). Here’s how to install Python 3.x.
 
-  Step 1: Update the Package List
-    Open a terminal (Ctrl + Alt + T on most Linux systems), and update your package manager:
-    sudo apt update
+   *   Step 1: Update the Package List
+       *   Open a terminal (Ctrl + Alt + T on most Linux systems), and update your package manager:
+           *   sudo apt update
     
-  Step 2: Install Python 3
-    Install Python 3 by running the following command:
-      sudo apt install python3
+   *   Step 2: Install Python 3
+       *   Install Python 3 by running the following command:
+       *   sudo apt install python3
       
-  Step 3: Verify Python Installation
-    Once the installation is complete, verify that Python is installed:
-      python3 --version
-    This should display the installed version of Python 3.
+   *   Step 3: Verify Python Installation
+       *   Once the installation is complete, verify that Python is installed:
+           *   python3 --version
+       *   This should display the installed version of Python 3.
 
-  Step 4: Install pip
-    To install pip (Python’s package manager), use the following command:
-      sudo apt install python3-pip
+   *   Step 4: Install pip
+       *   To install pip (Python’s package manager), use the following command:
+       *   sudo apt install python3-pip
       
-  Step 5: Verify pip Installation
-    Check if pip is installed correctly:
-      pip3 --version
+   *   Step 5: Verify pip Installation
+       *   Check if pip is installed correctly:
+           *   pip3 --version
       
 4. Installing Python on Other Linux Distros (Fedora, Arch, etc.)
-  Here are commands for other popular Linux distros:
+   *   Here are commands for other popular Linux distros:
 
-  For Fedora:
-    sudo dnf install python3
+   *   For Fedora:
+       *   sudo dnf install python3
     
-For Arch Linux:
-  sudo pacman -S python
+   *   For Arch Linux:
+       *   sudo pacman -S python
   
-Once installed, you can verify Python and pip installations with:
-  python3 --version
-  pip3 --version
+   *   Once installed, you can verify Python and pip installations with:
+       *   python3 --version
+       *   pip3 --version
 
 ## Python Capabilities:
 
