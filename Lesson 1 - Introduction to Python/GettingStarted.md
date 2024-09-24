@@ -132,15 +132,15 @@
            *   Install JRE x86: Choose this if you do not have Java Runtime Environment (JRE) installed.
              
    *   Step 5: Install PyCharm
-     *   Click Install to begin the installation process.
-     *   Wait for the installation to complete.
+       *   Click Install to begin the installation process.
+       *   Wait for the installation to complete.
        
    *   Step 6: Finish Installation
-     *   Once the installation is complete, you’ll get an option to Run PyCharm. If you want to start using it right away, check this box and click Finish.
+       *   Once the installation is complete, you’ll get an option to Run PyCharm. If you want to start using it right away, check this box and click Finish.
        
    *   Step 7: Configure PyCharm
-     *   When PyCharm launches for the first time, it will prompt you to import settings from a previous version or start fresh. Choose as per your requirement and click OK.
-     *   You can also choose a UI theme (Light/Dark) during the first-time setup.
+       *   When PyCharm launches for the first time, it will prompt you to import settings from a previous version or start fresh. Choose as per your requirement and click OK.
+       *   You can also choose a UI theme (Light/Dark) during the first-time setup.
        
 2. Installing PyCharm on macOS
    *   Step 1: Download PyCharm
