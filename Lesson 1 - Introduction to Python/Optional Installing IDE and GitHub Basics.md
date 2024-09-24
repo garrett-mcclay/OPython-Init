@@ -1,6 +1,6 @@
 The following is not necessary for the completion of this course, however could be benficial if you plan to continue working with python after completing this course.
 
-## Downloading and Installing IDE (Optional)
+## Downloading and Installing IDE
 
 1. Installing PyCharm on Windows
    *   Step 1: Download PyCharm
