@@ -23,7 +23,7 @@
        *   Click Next.
    
    *   Step 5: Advanced Options
-       *   In the Advanced Options screen, you can leave most of the default options checked. You may want to check the following based on your preferences:
+       *   the Advanced Options screen, you can leave most of the default options checked. You may want to check the following based on your preferences:
            *   Install for all users: Choose this if you want Python installed system-wide.
            *   Precompile standard library: This helps Python run faster.
        *   Choose an installation location if needed (or leave it as default) and click Install.
