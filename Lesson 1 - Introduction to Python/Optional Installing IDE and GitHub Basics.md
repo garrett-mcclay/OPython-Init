@@ -138,7 +138,7 @@
        *   In PyCharm, go to VCS > Git > Pull to pull the latest changes from your fork (or the original repository if you've added it as a remote).
    *   Step 3: Start Coding!
        *   At this point, the repository is ready in your IDE. You can now open files, edit code, and write new features.
-4. Making Changes, Committing, and Pushing
+4. Making Changes, Committing, and Pushing (Optional)
    *   Once you make changes to the repository, you’ll want to commit and push them to your fork on GitHub.
 
    *   Step 1: Make Your Code Changes
