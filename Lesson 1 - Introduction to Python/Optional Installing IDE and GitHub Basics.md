@@ -153,21 +153,4 @@
    *   Step 3: Push Your Changes to GitHub
        *   To push the committed changes to your fork on GitHub, go to VCS > Git > Push (or use the shortcut Ctrl+Shift+K on Windows/Linux or Cmd+Shift+K on macOS).
        *   PyCharm will push the changes to the remote repository.
-5. Keeping Your Fork Up to Date (Optional)
-   *   If the original repository (referred to as upstream) is actively maintained, you may want to pull in changes from the original project into your fork.
-
-   *   Step 1: Add the Original Repository as an Upstream Remote
-       *   Open the terminal in PyCharm by going to View > Tool Windows > Terminal.
-
-       *   Use the following command to add the upstream repository (the original repository you forked from) as a remote:
-           *   git remote add upstream https://github.com/original-owner/repository.git
-   *   Step 2: Fetch and Merge Changes
-       *   To fetch updates from the upstream repository and merge them into your local copy, run:
-           *   git fetch upstream
-           *   git merge upstream/main
-       *   Replace main with the branch name if it's different (e.g., master).
-
-   *   Step 3: Push Updates to Your Fork
-       *   Once you've merged the changes, push the updated code to your fork on GitHub:
-           *   git push origin main
-             
+       
